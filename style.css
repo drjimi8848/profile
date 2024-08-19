@@ -135,8 +135,8 @@ iframe{
     font-size: 2rem;
     background-color: rgb(236, 247, 243);
     border-radius: 14px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #social-media{
     display: flex;
