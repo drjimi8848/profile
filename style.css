@@ -109,7 +109,7 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 50px;
   border-radius: 10px;
   margin: 20px;
@@ -126,6 +126,7 @@ iframe{
     margin-top: 15px;
     display: flex;
     flex-direction: column;
+    background-color: transparent;
 }
 #jimi-contact{
     display: flex;
