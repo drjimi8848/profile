@@ -1,0 +1,145 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    padding-right: 30px;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10%;
+  }
+  img{
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    flex: 1 0 0%;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    padding: 10px;
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 1rem;
+    color : blue;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  @keyframes jimi {
+    from {font-size:20px;}
+    to{font-size:25px;}
+  }
+  .navbar a:hover {
+    text-decoration-line: underline;
+    color: #000000;
+    animation: jimi 5s linear 3s infinite normal;
+    
+    
+    
+  }
+  
+  
+  /* Add media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    .navbar ul {
+      display: none;
+    }
+    .icon {
+      display: block;
+    }
+  }
+  
+  .icon {
+    padding: 5px;
+    margin: 0 1rem;
+    background: transparent;
+    border: none;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+
+  }
+  
+  .icon:hover {
+    background: #fff;
+  }
+  
+  .icon:focus {
+    outline: 1px dotted #ccc;
+  }
+  body{
+    background-image: url(bgpg.jpeg);
+    background-size: cover;
+  }
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#intro{
+    margin-top: 50vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15%;
+}
+#youtube{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  border-radius: 10px;
+  margin: 20px;
+
+
+}
+iframe{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+#research-text{
+    font-size: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#jimi-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: rgb(236, 247, 243);
+    border-radius: 14px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#social-media{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
